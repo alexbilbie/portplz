@@ -1,0 +1,33 @@
+{
+  "Cluster": "my-cluster",
+  "ContainerInstanceARN": "arn:aws:ecs:eu-west-1:111111111111:container-instance/68f19c34-168d-4515-a9d6-bba9e14061c3",
+  "TaskARN": "arn:aws:ecs:eu-west-1:111111111111:task/99cd6cd5-1129-4568-8606-0fa42d3f53ea",
+  "ContainerID": "b031a4a7d3a7f21dc1d960171f854608971869d087c091c006b90eec2070777d",
+  "ContainerName": "my-image",
+  "DockerContainerName": "/ecs-my-image-24-my-image-90fd9db6dc92f091e501",
+  "ImageID": "sha256:c11a9d38cbd5d962a937d276e5b643d100841527b2d2ceb3508438d392956c06",
+  "ImageName": "111111111111.dkr.ecr.eu-west-1.amazonaws.com/my-image:150501922fba403d0e9025af3b3349494d07d63f",
+  "PortMappings": [
+    {
+      "ContainerPort": 80,
+      "HostPort": 54321,
+      "BindIp": "0.0.0.0",
+      "Protocol": "tcp"
+    },
+    {
+      "ContainerPort": 443,
+      "HostPort": 54322,
+      "BindIp": "0.0.0.0",
+      "Protocol": "tcp"
+    }
+  ],
+  "Networks": [
+    {
+      "NetworkMode": "bridge",
+      "IPv4Addresses": [
+        "172.17.0.1"
+      ]
+    }
+  ],
+  "MetadataFileStatus": "READY"
+}
